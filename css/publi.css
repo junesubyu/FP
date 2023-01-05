@@ -1,0 +1,17 @@
+body {
+}
+.sing_box {
+    width: 1150px;
+    margin: 0 auto;
+}
+.sing_box {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.sing_box img {
+    width: 500px;
+    height: 350px;
+    border: 1px solid #ffd9d9;
+    border-radius: 10px;
+}

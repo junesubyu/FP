@@ -1,0 +1,40 @@
+body {
+}
+
+.u_main {
+    width: 1150px;
+    margin-top: 50px;
+}
+.u_main h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.u_main ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.u_main ul li img {
+    width: 500px;
+    height: 350px;
+    border: 1px solid #ffd9d9;
+    border-radius: 10px;
+    background-color: #ffd9d9;
+}
+.u_main .buttons_f {
+    width: 350px;
+    margin: 0 auto;
+    padding-bottom: 180px;
+}
+.u_main button {
+    width: 350px;
+    height: 70px;
+    background-color: #ff8989;
+    color: #ffd9d9;
+    font-size: 23px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
