@@ -1,0 +1,25 @@
+body {
+}
+
+.g_main {
+    padding-top: 50px;
+    width: 1150px;
+}
+
+.g_main h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.g_main ul {
+    display: flex;
+    gap: 40px;
+}
+
+.g_main ul li a img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ffd9d9;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}

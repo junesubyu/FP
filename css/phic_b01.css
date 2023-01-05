@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+}
+
+.banner_01 {
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.banner_01 .banner_top {
+    height: 182px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_01 .banner_top ul {
+    display: flex;
+}
+.banner_01 .banner_top ul li {
+    width: 200px;
+    height: 70px;
+    background-color: #ff8989;
+    border-radius: 10px;
+}
+
+.banner_01 .banner_top ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffd9d9;
+
+    line-height: 70px;
+}

@@ -1,0 +1,103 @@
+body {
+}
+/* header_S */
+.header_s {
+    width: 1600px;
+    height: 270px;
+    background-color: #ff8989;
+}
+
+.header_s01 {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+.header_s01 .pro_box {
+    margin-top: 40px;
+}
+.header_s01 .pro_box h1 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.header_s01 .pro_box p {
+    font-size: 15px;
+    color: #ffd9d9;
+}
+
+.illu {
+    width: 215px;
+    height: 179px;
+}
+
+/* /pro_main */
+
+.pro_main {
+    width: 950px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 77px;
+}
+.pro_main .pro_left {
+    width: 450px;
+    text-align: center;
+    border-right: 1px solid #ffd9d9;
+    position: relative;
+}
+.pro_pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pro_main .pro_left .pic {
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/jsjs.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 250px;
+    margin-bottom: 25px;
+}
+
+.pro_main .pro_left h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 110px;
+}
+
+.pro_main .pro_left p {
+    font-size: 15px;
+}
+
+.pro_right {
+    margin-left: 65px;
+}
+
+.pro_right h5 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.pro_right > ul {
+    margin-bottom: 30px;
+}
+
+.pro_right > ul > li {
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.pro_right ul.skills {
+    display: flex;
+    gap: 40px;
+}
