@@ -1,8 +1,8 @@
 body {
+    background-color: #fff;
 }
 /* header_S */
 .header_s {
-    width: 1600px;
     height: 270px;
     background-color: #ff8989;
 }

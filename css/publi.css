@@ -26,7 +26,17 @@ body {
 
 .sing_box p {
     font-size: 15px;
-    margin-bottom: 193px;
+    margin-bottom: 79px;
+}
+
+.ggob button {
+    width: 93px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #ffd9d9;
+    font: 15px;
+    margin-bottom: 79px;
 }
 
 .button_s {

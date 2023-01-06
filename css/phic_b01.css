@@ -4,14 +4,33 @@ body {
 .banner_01 {
     width: 1150px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .banner_01 .banner_top {
-    height: 182px;
-    padding-top: 70px;
+    height: 200px;
+    padding-top: 90px;
     padding-bottom: 42px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.banner_top .turn {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.turn a img:hover {
+    scale: 105%;
+    opacity: 80%;
+}
+
+.banner_top .turn > div {
+    width: 50px;
+    height: 50px;
 }
 
 .banner_01 .banner_top .b_buttons {
@@ -29,6 +48,7 @@ body {
     margin-left: 55px;
     cursor: pointer;
 }
-.banner_01 img {
-    width: 1150px;
+.banner_01 .phicm_img img {
+    width: 1110px;
+    padding-bottom: 150px;
 }

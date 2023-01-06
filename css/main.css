@@ -21,13 +21,15 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #ff8989;
 }
 .container {
 }
 .header {
-    background-color: #ff8989;
     border-bottom: 1px solid #ffd9d9;
+    background-color: #ff8989;
 }
+
 .nav {
     width: 1150px;
     height: 80px;
@@ -74,7 +76,6 @@ body {
 .nav ul > li > a:hover:after {
     width: 100%;
 }
-
 .main {
     width: 1600px;
     height: 820px;
