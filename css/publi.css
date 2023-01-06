@@ -7,6 +7,7 @@ body {
 .sing_box {
     display: flex;
     margin-bottom: 150px;
+    margin-top: 110px;
 }
 
 .sing_box img {
@@ -14,4 +15,41 @@ body {
     height: 350px;
     border: 1px solid #ffd9d9;
     border-radius: 10px;
+    margin-right: 150px;
+}
+
+.sing_box h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.sing_box p {
+    font-size: 15px;
+    margin-bottom: 193px;
+}
+
+.button_s {
+    display: flex;
+    gap: 50px;
+}
+
+.button_s button {
+    width: 170px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button_left button {
+    background-color: #ff8989;
+    color: #ffd9d9;
+}
+
+.button_right button {
+    background-color: #ffd9d9;
+    color: #ff8989;
 }
